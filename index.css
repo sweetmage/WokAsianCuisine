@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+    font-family: Segoe, Verdana, sans-serif;
+    background-color: #0D1321;
+    margin: 2em auto;
+	padding-top: 2em;
+    font-style: normal;
+    font-weight: 300;
+	color: #F3E9DC;
+	align-content: center;
+	min-width: 1200px;
+	max-width: 1400px;
+}
+nav {
+	font-weight: bold;
+	width: 100%;
+}
+nav a {
+	display: table-cell;
+	text-align: center;
+	color: #F3E9DC;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.25em;
+
+}
+nav a:link {
+	background-color: #0D1321;
+}
+nav a:hover {
+	background-color: #F3E9DC;
+	color: #82190F;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline;
+}
+.button {
+	padding: 20px;
+	min-width: 200px;
+}
+body {
+	text-align: center;
+	display: block;
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+h2 {
+	padding-top: 2em;
+	font-size: 1.5em;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #F3E9DC;
+}
+a:hover {
+	color: #82190F;
+}
+form{
+	width: 800px;
+	padding: 20px;
+	margin: 2em auto;
+	border: solid 3px #82190F;
+}
+label{
+	float:left;
+	display: block;
+	font-weight: bold;
+	width:8em;
+	padding-right: 1em;
+}
+input{
+	display: block;
+	width: 500px;
+	height: 30px;
+	margin-bottom: 2em;
+}
+select {
+	display: block;
+	width: 500px;
+	height: 30px;
+	margin-bottom: 2em;
+}
+textarea {
+	width: 500px;
+	height: 200px;
+	display: block;
+}
+footer {
+	background-color: #F3E9DC;
+	color: #0D1321;
+	padding: 1em;
+	
+}
+
+#mySubmit{
+	width: 130px;
+	background-color: #82190F;
+	font-weight: bold;
+	margin: 30px auto;
+}
+.border {
+	border-bottom: 3px solid #82190F;
+	border-top: 3px solid #82190F;
+	width: 100%;
+}
+.left {
+	float: left;
+	padding: 175px 0 0 140px;
+}
+.right {
+    float: right;
+	padding-top: 3px;
+}
+.floatcontainer {
+	overflow: hidden;
+	margin-top: 2em;
+	display: block;
+	border-bottom: 3px solid #82190F;
+	border-top: 3px solid #82190F;
+}
